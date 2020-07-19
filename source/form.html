@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Academy: Седона</title>
+</head>
+
+<body class="page__body">
+  <header class="header">
+
+    <div class="header__logo logo">
+      <a href="">
+        <img src="" width="" height="" alt="Туристический городок Седона">
+      </a>
+    </div>
+
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button">
+        <img src="" width="" height="" alt="Открыть меню">
+      </button>
+      <ul class="main-nav__list site-list">
+        <li class="site-list__item"><a href="index.html">Главная</a>
+          <button class="site-list__button"></button>
+        </li>
+        <li class="site-list__item"><a href="photo.html">Фото и видео</a></li>
+        <li class="site-list__item"><a href="form.html">Форма отзыва</a></li>
+        <li class="site-list__item"><a href="">HTML Academy</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="intro">
+      <div class="intro__background">
+        <img class="intro__background-img" src="" width="" height="" alt="">
+      </div>
+    </section>
+
+      <section class="reviews">
+
+        <div class="reviews__description reviews-description">
+          <h1 class="reviews-description__slogan">Оставьте свой отзыв</h1>
+          <p class="reviews-description__text">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+        </div>
+
+        <form class="reviews_form feedback" action="https://echo.htmlacademy.ru" method="get">
+
+          <fieldset class="feedback__section full-name">
+            <legend class="full-name__subtitle">Представьтесь</legend>
+            <ul class="full-name__list">
+              <li class="full-name__item">
+                <label>
+                  Имя*: <input class="full-name__item-input" type="text" name="name">
+                </label>
+              </li>
+              <li class="full-name__item">
+                <label>
+                  Фамилия*: <input class="full-name__item-input" type="text" name="surname">
+                </label>
+              </li>
+              <li class="full-name__item">
+                <label>
+                  Отчество*: <input class="full-name__item-input" type="text" name="middle-name">
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="feedback__section contact-information">
+            <legend class="contact-information__subtitle">Контактная Информация</legend>
+            <ul class="contact-information__list">
+              <li class="contact-information__item">
+                <label>
+                  Контактный телефон*: <input class="contact-information__item-phone" type="text" name="phone">
+                </label>
+              </li>
+              <li class="contact-information__item">
+                <label>
+                  Электронная почта*: <input class="contact-information__item-email" type="text" name="email">
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="feedback__section impression">
+            <legend class="impression__subtitle">Ваше общее впечатление:</legend>
+            <ul class="impression__list">
+              <li class="impression__item">
+                <label>
+                  <input class="impression__item-point" type="radio" name="impression" value="Скорее положительное">Скорее положительное
+                </label>
+              </li>
+              <li class="impression__item">
+                <label>
+                  <input class="impression__item-point" type="radio" name="impression" value="Скорее отрицательное">Скорее отрицательное
+                </label>
+              </li>
+              <li class="impression__item">
+                <label>
+                  <input class="impression__item-point" type="radio" name="impression" value="Затрудняюсь ответить">Затрудняюсь ответить
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="feedback__section attractions">
+            <legend class="attractions__subtitle">Посещенные Достопримечательности:</legend>
+            <ul class="attractions__list">
+              <li class="attractions__item">
+                <label>
+                  <input class="attractions__item-point" type="checkbox" name="attractions" value="Мост Дьявола">Мост Дьявола
+                </label>
+              </li>
+              <li class="attractions__item">
+                <label>
+                  <input class="attractions__item-point" type="checkbox" name="attractions" value="Гора-Колокол">Гора-Колокол
+                </label>
+              </li>
+              <li class="attractions__item">
+                <label>
+                  <input class="attractions__item-point" type="checkbox" name="attractions" value="Слайд-парк">Слайд-парк
+                </label>
+              </li>
+              <li class="attractions__item">
+                <label>
+                  <input class="attractions__item-point" type="checkbox" name="attractions" value="Красные скалы">Красные скалы
+                </label>
+              </li>
+            </ul>
+
+            <div class="feedback__error-popup error-popup">
+              <h2 class="error-popup__title">Что-то пошло не так!</h2>
+              <p class="error-popup__description">
+                Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить
+              </p>
+            </div>
+          </fieldset>
+
+          <fieldset class="feedback__section">
+            <legend class="feedback__subtitle">Опишите свои эмоции:</legend>
+            <label><textarea class="feedback_emotions" name="message" rows="7" cols="35" placeholder="Опишите подробно все свои восторги"></textarea></label>
+
+            <div class="feedback__success-popup success-popup">
+              <h2 class="success-popup__title">Ваш отзыв отправлен!</h2>
+              <p class="success-popup__description">
+                Спасибо за ваше участие, ваш отзыв уже поступил к нам. В ближайшее время мы опубликуем его на сайте.
+              </p>
+            </div>
+          </fieldset>
+
+          <button class="feedback__button" type="submit">Отправить отзыв</button>
+        </form>
+      </section>
+  </main>
+
+  <footer class="page-footer">
+    <a class="page-footer__hashtag" href="">#VISITSEDONA</a>
+
+    <div class="page-footer_social social">
+      <h2 class="visually-hidden">Давайте дружить!</h2>
+      <ul class="social__list">
+        <li class="social__item"><a class="social__link social__link--twitter" href="#" aria-label="Твиттер"></a></li>
+        <li class="social__item"><a class="social__link social__link--facebook" href="#" aria-label="Фейсбук"></a></li>
+        <li class="social__item"><a class="social__link social__link--youtube" href="#" aria-label="Ютуб"></a></li>
+      </ul>
+    </div>
+
+    <div class="page-footer__html-academy">
+      <p>Разработано <a href="https://htmlacademy.ru/intensive/adaptive"><img src="" width="" height="" alt="хтмл академия"></a></p>
+    </div>
+  </footer>
+</body>
+
+</html>
