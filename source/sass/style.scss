@@ -1,3 +1,14 @@
 // Начните писать стили здесь
 
-body { background: #31EEDE; }
+// @import "normalize.scss";
+@import "fonts.scss";
+@import "scaffolding.scss";
+@import "variables.scss";
+@import "mixins.scss";
+
+@import "blocks/intro.scss";
+@import "blocks/advantages.scss";
+@import "blocks/interested.scss";
+
+
+

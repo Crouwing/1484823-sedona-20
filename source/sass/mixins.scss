@@ -1,0 +1,19 @@
+
+@mixin reset {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin reset-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin text-parameters ($fsyle, $fweight, $fsize, $lheight, $ttransform) {
+font-style: $fsyle;
+font-weight: $fweight;
+font-size: $fsize;
+line-height: $lheight;
+text-transform: $ttransform;
+}
