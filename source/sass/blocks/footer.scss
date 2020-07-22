@@ -1,0 +1,19 @@
+
+.footer {
+  background-color: $white-color;
+  border: solid 2px #E6D03B;
+  width: 318px;
+  text-align: center;
+  margin-top: 10px;
+
+  &__hashtag {
+    @include text-parameters (normal, bold , 21px, 26px, uppercase);
+    text-decoration: none;
+    color: $black-color;
+  }
+}
+
+.social__list {
+  @include reset-list;
+}
+

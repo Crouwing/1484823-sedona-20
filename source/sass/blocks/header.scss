@@ -1,0 +1,24 @@
+.main-nav {
+  background-color: $white-color;
+}
+
+.main-nav__list {
+  @include reset-list;
+}
+
+.site-list {
+
+  &__item {
+    padding: 10px 78px 5px 77px;
+    background-color: $background-dignity;
+    text-align: center;
+  }
+
+  &__link {
+    color: $white-color;
+    text-decoration: none;
+    @include text-parameters (normal, bold , 18px, 40px, uppercase);
+  }
+}
+
+

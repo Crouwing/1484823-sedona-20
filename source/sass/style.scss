@@ -6,9 +6,14 @@
 @import "variables.scss";
 @import "mixins.scss";
 
+// index.html
+@import "blocks/header.scss";
 @import "blocks/intro.scss";
 @import "blocks/advantages.scss";
 @import "blocks/interested.scss";
+@import "blocks/map.scss";
+@import "blocks/footer.scss";
 
+// photo.html
 
 
