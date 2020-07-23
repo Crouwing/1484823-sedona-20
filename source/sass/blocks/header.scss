@@ -14,8 +14,8 @@
   }
 
   &__link {
+    @include text-parameters (normal, bold , 18px, 40px, uppercase);
     color: $white-color;
     text-decoration: none;
-    @include text-parameters (normal, bold , 18px, 40px, uppercase);
   }
 }

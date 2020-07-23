@@ -1,11 +1,10 @@
-
 .intro {
   background-color: $white-color;
   border: solid 2px #ff00ff;
 
   &__background {
     height: 389px;
-    background-image: url(../img/bg-back-mobile@1x.jpg);
+    background-image: url("../img/bg-back-mobile@1x.jpg");
   }
 }
 

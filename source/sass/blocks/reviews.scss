@@ -1,4 +1,3 @@
-
 .reviews {
   background-color: $white-color;
   border: solid 2px #42c55b;
@@ -6,8 +5,8 @@
 
 .feedback__section {
   @include reset;
-    border:none;
-    margin-bottom: 20px;
+  border: none;
+  margin-bottom: 20px;
 }
 
 .reviews-description {
@@ -30,11 +29,11 @@
 // Форма
 
 .full-name {
-  padding: 0px 14px 26px;
+  padding: 0 14px 26px;
 
   &__subtitle {
-    margin-bottom: 19px;
     @include text-parameters (normal, bold , 18px, 26px, uppercase);
+    margin-bottom: 19px;
     text-align: center;
   }
 
@@ -70,11 +69,11 @@
 }
 
 .contact-information {
-  padding: 0px 20px 29px 20px;
+  padding: 0 20px 29px 20px;
 
   &__subtitle {
-    margin-bottom: 17px;
     @include text-parameters (normal, bold , 18px, 26px, uppercase);
+    margin-bottom: 17px;
     text-align: center;
   }
 
@@ -107,11 +106,12 @@
 }
 
 .impression {
-  padding: 0px 37px 27px 24px;
+  padding: 0 37px 27px 24px;
 
   &__subtitle {
-    margin-bottom: 25px;
     @include text-parameters (normal, bold , 18px, 26px, uppercase);
+
+    margin-bottom: 25px;
     text-align: center;
   }
 
@@ -137,11 +137,11 @@
 }
 
 .attractions {
-  padding: 0px 26px 31px 24px;
+  padding: 0 26px 31px 24px;
 
   &__subtitle {
-    margin-bottom: 25px;
     @include text-parameters (normal, bold , 18px, 26px, uppercase);
+    margin-bottom: 25px;
     text-align: center;
   }
 
@@ -167,11 +167,11 @@
 }
 
 .emotions {
-  padding: 0px 21px 31px 19px;
+  padding: 0 21px 31px 19px;
 
   &__subtitle {
-    margin-bottom: 15px;
     @include text-parameters (normal, bold , 18px, 26px, uppercase);
+    margin-bottom: 15px;
     text-align: center;
   }
 
@@ -185,9 +185,9 @@
 }
 
 .feedback__button {
+  @include text-parameters (normal, bold , 21px, 26px, uppercase);
   padding: 18.5px 33px 13.5px 32px;
   margin-left: 19px;
-  @include text-parameters (normal, bold , 21px, 26px, uppercase);
   border: none;
   background-color: $background-dignity;
   color: $white-color;
@@ -215,8 +215,8 @@
   }
 
   &__link {
-    padding: 18px 64px 14px;
     @include text-parameters (normal, bold , 18px, 26px, uppercase);
+    padding: 18px 64px 14px;
     text-decoration: none;
     background-color: $background-dignity;
     color: $white-color;
@@ -245,8 +245,8 @@
   }
 
   &__link {
-    padding: 16px 76px;
     @include text-parameters (normal, bold , 18px, 26px, uppercase);
+    padding: 16px 76px;
     text-decoration: none;
     background-color: $background-dignity;
     color: $white-color;
