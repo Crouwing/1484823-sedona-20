@@ -1,0 +1,66 @@
+.dignity {
+  &__title {
+    @include text-parameters (normal, bold , 18px, 26px, uppercase);
+    @include reset;
+  }
+
+  &__number {
+    @include text-parameters (normal, normal, 14px, 26px, uppercase);
+  }
+
+  &__text {
+    @include text-parameters (normal, normal , 14px, 26px, uppercase);
+    margin-bottom: 0;
+  }
+}
+
+.dignity__list {
+  @include reset-list;
+  padding: 35px 12px 35px 0;
+}
+
+.dignity__item {
+  margin-left: 67px;
+  position: relative;
+
+  &-title {
+    @include text-parameters (normal, bold , 18px, 26px, uppercase);
+  }
+
+  &-text {
+    @include text-parameters (normal, normal , 14px, 22px, uppercase);
+  }
+
+  // &--housing::before {
+  //   content: "";
+  //   position: absolute;
+  //   left: ;
+  //   top: ;
+  //   width: ;
+  //   height: ;
+  //   background-image: url(../img/icon-house.svg);
+  //   background-repeat: no-repeat;
+  // }
+
+  // &--souvenirs::before {
+  //   content: "";
+  //   position: absolute;
+  //   left: ;
+  //   bottom: ;
+  //   width: ;
+  //   height: ;
+  //   background-image: url(../img/icon-gift.svg);
+  //   background-repeat: no-repeat;
+  // }
+
+  // &--hamburger::before {
+  //   content: "";
+  //   position: absolute;
+  //   left: ;
+  //   bottom: ;
+  //   width: ;
+  //   height: ;
+  //   background-image: url(../img/icon-burger.svg);
+  //   background-repeat: no-repeat;
+  // }
+}
