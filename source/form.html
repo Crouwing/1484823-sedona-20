@@ -50,37 +50,37 @@
         <form class="reviews_form feedback" action="https://echo.htmlacademy.ru" method="get">
 
           <fieldset class="feedback__section full-name">
-            <legend class="full-name__subtitle">Представьтесь</legend>
+            <legend class="full-name__subtitle">Представьтесь:</legend>
             <ul class="full-name__list">
               <li class="full-name__item">
-                <label>
-                  Имя*: <input class="full-name__item-input" type="text" name="name">
+                <label class="full-name__label">
+                  Имя*: <input class="full-name__item-input full-name__item-input--name" type="text" name="name" placeholder="Петр">
                 </label>
               </li>
               <li class="full-name__item">
-                <label>
-                  Фамилия*: <input class="full-name__item-input" type="text" name="surname">
+                <label class="full-name__label">
+                  Фамилия*: <input class="full-name__item-input" type="text" name="surname" placeholder="Иванов">
                 </label>
               </li>
               <li class="full-name__item">
-                <label>
-                  Отчество*: <input class="full-name__item-input" type="text" name="middle-name">
+                <label class="full-name__label">
+                  Отчество*: <input class="full-name__item-input" type="text" name="middle-name" placeholder="Александрович">
                 </label>
               </li>
             </ul>
           </fieldset>
 
           <fieldset class="feedback__section contact-information">
-            <legend class="contact-information__subtitle">Контактная Информация</legend>
+            <legend class="contact-information__subtitle">Контактная Информация:</legend>
             <ul class="contact-information__list">
               <li class="contact-information__item">
-                <label>
-                  Контактный телефон*: <input class="contact-information__item-phone" type="text" name="phone">
+                <label class="contact-information__label">
+                  Контактный телефон*: <input class="contact-information__item-phone" type="text" name="phone" placeholder="Введите телефон">
                 </label>
               </li>
               <li class="contact-information__item">
-                <label>
-                  Электронная почта*: <input class="contact-information__item-email" type="text" name="email">
+                <label class="contact-information__label">
+                  Электронная почта*: <input class="contact-information__item-email" type="text" name="email" placeholder="Введите e-mail">
                 </label>
               </li>
             </ul>
@@ -90,17 +90,17 @@
             <legend class="impression__subtitle">Ваше общее впечатление:</legend>
             <ul class="impression__list">
               <li class="impression__item">
-                <label>
+                <label class="impression__label">
                   <input class="impression__item-point" type="radio" name="impression" value="Скорее положительное">Скорее положительное
                 </label>
               </li>
               <li class="impression__item">
-                <label>
+                <label class="impression__label">
                   <input class="impression__item-point" type="radio" name="impression" value="Скорее отрицательное">Скорее отрицательное
                 </label>
               </li>
               <li class="impression__item">
-                <label>
+                <label class="impression__label">
                   <input class="impression__item-point" type="radio" name="impression" value="Затрудняюсь ответить">Затрудняюсь ответить
                 </label>
               </li>
@@ -111,46 +111,50 @@
             <legend class="attractions__subtitle">Посещенные Достопримечательности:</legend>
             <ul class="attractions__list">
               <li class="attractions__item">
-                <label>
+                <label class="attractions__label">
                   <input class="attractions__item-point" type="checkbox" name="attractions" value="Мост Дьявола">Мост Дьявола
                 </label>
               </li>
               <li class="attractions__item">
-                <label>
+                <label class="attractions__label">
                   <input class="attractions__item-point" type="checkbox" name="attractions" value="Гора-Колокол">Гора-Колокол
                 </label>
               </li>
               <li class="attractions__item">
-                <label>
+                <label class="attractions__label">
                   <input class="attractions__item-point" type="checkbox" name="attractions" value="Слайд-парк">Слайд-парк
                 </label>
               </li>
               <li class="attractions__item">
-                <label>
+                <label class="attractions__label">
                   <input class="attractions__item-point" type="checkbox" name="attractions" value="Красные скалы">Красные скалы
                 </label>
               </li>
             </ul>
-
-            <div class="feedback__error-popup error-popup">
-              <h2 class="error-popup__title">Что-то пошло не так!</h2>
-              <p class="error-popup__description">
-                Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить
-              </p>
-            </div>
           </fieldset>
 
-          <fieldset class="feedback__section">
-            <legend class="feedback__subtitle">Опишите свои эмоции:</legend>
-            <label><textarea class="feedback_emotions" name="message" rows="7" cols="35" placeholder="Опишите подробно все свои восторги"></textarea></label>
+          <div class="feedback__error-popup error-popup">
+            <h2 class="error-popup__title">Что-то пошло не так!</h2>
+            <p class="error-popup__description">
+               Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить
+            </p>
+            <a class="error-popup__link" href="">ок</a>
+          </div>
 
-            <div class="feedback__success-popup success-popup">
-              <h2 class="success-popup__title">Ваш отзыв отправлен!</h2>
-              <p class="success-popup__description">
-                Спасибо за ваше участие, ваш отзыв уже поступил к нам. В ближайшее время мы опубликуем его на сайте.
-              </p>
-            </div>
+          <fieldset class="feedback__section emotions">
+            <legend class="emotions__subtitle">Опишите свои эмоции:</legend>
+            <label><textarea class="emotions__input" name="message" rows="7" cols="35" placeholder="Опишите подробно все свои восторги"></textarea></label>
           </fieldset>
+
+          <div class="feedback__success-popup success-popup">
+            <h2 class="success-popup__title">Ваш отзыв отправлен!</h2>
+            <p class="success-popup__description">
+               Спасибо за ваше участие, ваш<br> отзыв уже поступил к нам.<br> В ближайшее время мы<br> опубликуем его на сайте.
+            </p>
+            <div class="success-popup__link-background">
+              <a class="success-popup__link" href="">Закрыть окно</a>
+            </div>
+          </div>
 
           <button class="feedback__button" type="submit">Отправить отзыв</button>
         </form>
