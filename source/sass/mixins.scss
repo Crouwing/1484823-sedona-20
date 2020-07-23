@@ -11,9 +11,9 @@
 }
 
 @mixin text-parameters ($fsyle, $fweight, $fsize, $lheight, $ttransform) {
-font-style: $fsyle;
-font-weight: $fweight;
-font-size: $fsize;
-line-height: $lheight;
-text-transform: $ttransform;
+  font-style: $fsyle;
+  font-weight: $fweight;
+  font-size: $fsize;
+  line-height: $lheight;
+  text-transform: $ttransform;
 }

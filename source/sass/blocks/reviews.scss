@@ -1,13 +1,13 @@
 
 .reviews {
   background-color: $white-color;
-  border: solid 2px #42C55B;
+  border: solid 2px #42c55b;
 }
 
 .feedback__section {
   @include reset;
-  border:none;
-  margin-bottom: 20px;
+    border:none;
+    margin-bottom: 20px;
 }
 
 .reviews-description {
@@ -124,7 +124,7 @@
   }
 
   &__item-point {
-  margin-right: 26px;
+    margin-right: 26px;
   }
 
   &__item {
@@ -154,7 +154,7 @@
   }
 
   &__item-point {
-  margin-right: 29px;
+    margin-right: 29px;
   }
 
   &__item {
@@ -196,7 +196,7 @@
 .feedback__error-popup {
   display: none;
   padding: 40px 42px 35px 41px;
-  border: solid 2px #5E3BE1;
+  border: solid 2px #5e3be1;
 }
 
 .error-popup {
@@ -226,10 +226,10 @@
 .feedback__success-popup {
   display: none;
   padding: 38px 20px 20px;
-  border: solid 2px #FC4F5F;
+  border: solid 2px #fc4f5f;
 }
 
-.success-popup  {
+.success-popup {
   text-align: center;
 
   &__title {
