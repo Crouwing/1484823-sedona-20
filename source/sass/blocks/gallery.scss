@@ -1,5 +1,5 @@
 .gallery__item {
-  margin-bottom: 39px;
+  padding: 22px 20px 15px 20px;
 }
 
 .gallery__title {
@@ -11,6 +11,7 @@
 
 .gallery__author {
   @include text-parameters (normal, normal , 14px, 24px, none);
+  display: block;
 }
 
 .gallery__like {

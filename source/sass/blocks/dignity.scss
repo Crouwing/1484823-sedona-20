@@ -5,7 +5,7 @@
   color: $white-color;
 
   &--folded {
-    padding: 25px 25px;
+    padding: 25px 35px;
     background-color: $background-dignity--folder;
     color: $black-color;
   }
@@ -28,7 +28,7 @@
 
 .dignity__list {
   @include reset-list;
-  padding: 35px 11px 35px 70px;
+  padding: 35px 15px 35px 70px;
 }
 
 .dignity__item {

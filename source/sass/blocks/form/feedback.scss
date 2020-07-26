@@ -3,7 +3,6 @@
 .feedback__section {
   @include reset;
   border: none;
-  margin-bottom: 20px;
 }
 
 // Попап с ошибкой
@@ -39,7 +38,7 @@
 
 .feedback__success {
   display: none;
-  padding: 38px 20px 20px;
+  padding: 38px 39px 20px;
   border: solid 2px #fc4f5f;
   text-align: center;
 }
@@ -65,7 +64,7 @@
 }
 
 .feedback__success-linkbg {
-  margin: -20px -20px;
+  margin: -20px -40px;
   padding: 30px 15px;
   background-color: $background-color;
 }
@@ -74,8 +73,9 @@
 
 .feedback__button {
   @include text-parameters (normal, bold , 21px, 26px, uppercase);
-  padding: 18.5px 33px 13.5px 32px;
+  padding: 18.5px 49px 13.5px 48px;
   margin-left: 19px;
+  margin-bottom: 46px;
   border: none;
   background-color: $background-dignity;
   color: $white-color;
