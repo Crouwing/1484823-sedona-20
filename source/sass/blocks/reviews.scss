@@ -5,17 +5,17 @@
 
 .reviews__description {
   text-align: center;
+}
 
-  &-slogan {
-    @include text-parameters (normal, bold , 18px, 26px, uppercase);
-    @include reset;
-    margin-top: 36px;
-  }
+.reviews__description-slogan {
+  @include text-parameters (normal, bold , 18px, 26px, uppercase);
+  @include reset;
+  margin-top: 36px;
+}
 
-  &-text {
-    @include text-parameters (normal, normal , 14px, 26px, uppercase);
-    @include reset;
-    margin-top: 35px;
-    margin-bottom: 37px;
-  }
+.reviews__description-text {
+  @include text-parameters (normal, normal , 14px, 26px, uppercase);
+  @include reset;
+  margin-top: 35px;
+  margin-bottom: 37px;
 }

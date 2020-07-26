@@ -1,7 +1,10 @@
+.intro__description {
+  padding: 32px 13px 11px;
+}
+
 .intro-description__slogan {
   @include text-parameters (normal, bold , 18px, 26px, uppercase);
   @include reset;
-  margin-top: 32px;
   text-align: center;
 }
 
@@ -9,6 +12,5 @@
   @include text-parameters (normal, normal , 14px, 26px, uppercase);
   @include reset;
   margin-top: 35px;
-  margin-bottom: 27px;
   text-align: center;
 }

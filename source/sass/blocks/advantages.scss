@@ -2,16 +2,3 @@
   background-color: $white-color;
   border: solid 2px #45e157;
 }
-
-.dignity__group {
-  padding: 39px 16px;
-  text-align: center;
-  background-color: $background-dignity;
-  color: $white-color;
-
-  &--folded {
-    padding: 25px 22px 24px;
-    background-color: $background-dignity--folder;
-    color: $black-color;
-  }
-}

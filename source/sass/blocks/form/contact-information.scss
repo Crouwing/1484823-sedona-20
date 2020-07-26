@@ -1,36 +1,36 @@
 .contact-information {
   padding: 0 20px 29px 20px;
+}
 
-  &__subtitle {
-    @include text-parameters (normal, bold , 18px, 26px, uppercase);
-    margin-bottom: 17px;
-    text-align: center;
-  }
+.contact-information__subtitle {
+  @include text-parameters (normal, bold , 18px, 26px, uppercase);
+  margin-bottom: 17px;
+  text-align: center;
+}
 
-  &__list {
-    @include reset-list;
-  }
+.contact-information__list {
+  @include reset-list;
+}
 
-  &__label {
-    @include text-parameters (normal, normal , 14px, 26px, uppercase);
-    margin-bottom: 6px;
-    margin-left: 22px;
-  }
+.contact-information__label {
+  @include text-parameters (normal, normal , 14px, 26px, uppercase);
+  margin-bottom: 6px;
+  margin-left: 22px;
+}
 
-  &__item-phone,
-  &__item-email {
-    padding-left: 22px;
-    width: 258px;
-    height: 50px;
-    background-color: $background-color;
-    border: none;
-  }
+.contact-information__item-phone,
+.contact-information__item-email {
+  padding-left: 22px;
+  width: 258px;
+  height: 50px;
+  background-color: $background-color;
+  border: none;
+}
 
-  &__item {
-    margin-bottom: 14px;
-  }
+.contact-information__item {
+  margin-bottom: 14px;
+}
 
-  &__item:last-child {
-    margin-bottom: 0;
-  }
+.contact-information__item:last-child {
+  margin-bottom: 0;
 }

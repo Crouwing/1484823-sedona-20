@@ -1,23 +1,21 @@
-.gallery {
-  &__item {
-    margin-bottom: 39px;
-  }
+.gallery__item {
+  margin-bottom: 39px;
+}
 
-  &__title {
-    @include text-parameters (normal, bold , 14px, 24px, uppercase);
-    @include reset;
-    margin-top: 11px;
-    margin-bottom: 0;
-  }
+.gallery__title {
+  @include text-parameters (normal, bold , 14px, 24px, uppercase);
+  @include reset;
+  margin-top: 11px;
+  margin-bottom: 0;
+}
 
-  &__author {
-    @include text-parameters (normal, normal , 14px, 24px, none);
-  }
+.gallery__author {
+  @include text-parameters (normal, normal , 14px, 24px, none);
+}
 
-  &__like {
-    @include text-parameters (normal, bold , 14px, 24px, none);
-    display: block;
-    margin-top: 13px;
-    margin-left: 37px;
-  }
+.gallery__like {
+  @include text-parameters (normal, bold , 14px, 24px, none);
+  display: block;
+  margin-top: 13px;
+  margin-left: 37px;
 }
