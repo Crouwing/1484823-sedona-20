@@ -14,3 +14,9 @@
   margin-top: 35px;
   text-align: center;
 }
+
+@media (min-width: $tablet-width) {
+  .intro__description {
+    padding: 32px 124px 11px;
+  }
+}

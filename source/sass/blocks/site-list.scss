@@ -9,3 +9,24 @@
   color: $white-color;
   text-decoration: none;
 }
+
+@media (min-width: $tablet-width) {
+  .site-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .site-list__button {
+    display: none;
+  }
+
+  .site-list__item {
+    padding: 16px 6px 14px 12px;
+    background-color: $white-color;
+  }
+
+  .site-list__link {
+    color: $black-color;
+  }
+}
