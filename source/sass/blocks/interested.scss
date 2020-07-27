@@ -29,3 +29,22 @@
   background-color: $background-dignity;
   color: $white-color;
 }
+
+@media (min-width: $tablet-width) {
+  .interested {
+    padding: 58px 155px 58px;
+  }
+
+  .interested__text {
+    margin-top: 35px;
+    margin-bottom: 37px;
+  }
+
+  .interested__title {
+    font-size: 30px;
+  }
+
+  .interested__link {
+    padding: 14.5px 121px 17.5px;
+  }
+}

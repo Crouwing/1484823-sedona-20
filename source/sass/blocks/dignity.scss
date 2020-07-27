@@ -61,7 +61,7 @@
     padding: 44px 32px 44px;
   }
 
-   .dignity__group--folded {
+  .dignity__group--folded {
     padding: 35px 25px;
     max-width: 256px;
   }
@@ -70,17 +70,24 @@
     order: 2;
   }
 
-  // .dignity__group--area {
-  //   padding: 53px 33px;
-  // }
+  .dignity__group--area {
+    max-width: 189px;
+    padding: 52px 33px;
+  }
 
-  // .dignity__group--road {
-  //   padding: 42px 47px;
-  // }
+  .dignity__group--road {
+    padding: 42px 47px;
+    max-width: 162px;
+  }
 
-  // .dignity__group--tourists {
-  //   padding: 40px 40px;
-  // }
+  .dignity__group--tourists {
+    padding: 42px 47px;
+    max-width: 159px;
+  }
+
+  .dignity__title {
+    font-size: 21px;
+  }
 
   .dignity__list {
     display: grid;
