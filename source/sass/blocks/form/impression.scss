@@ -1,0 +1,29 @@
+.impression {
+  padding: 0 28px 47px 24px;
+}
+
+.impression__subtitle {
+  @include text-parameters (normal, bold , 18px, 26px, uppercase);
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.impression__list {
+  @include reset-list;
+}
+
+.impression__label {
+  @include text-parameters (normal, bold , 14px, 26px, uppercase);
+}
+
+.impression__item-point {
+  margin-right: 26px;
+}
+
+.impression__item {
+  margin-bottom: 21px;
+}
+
+.impression__item:last-child {
+  margin-bottom: 0;
+}

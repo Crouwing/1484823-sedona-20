@@ -1,0 +1,35 @@
+.visually-hidden {
+  display: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: $base-font;
+}
+
+.page__body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+}
+
+.container {
+  position: relative;
+  max-width: $mobile-width-container;
+  margin: 0 auto;
+}
+
+@media (min-width: $tablet-width) {
+  .container {
+    max-width: $tablet-width-container;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .container {
+    max-width: $desktop-width-container;
+  }
+}

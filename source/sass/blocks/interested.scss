@@ -1,0 +1,50 @@
+.interested {
+  padding: 33px 25px 49px;
+  background-color: $white-color;
+  color: $black-color;
+  border: solid 2px #f81515;
+  text-align: center;
+}
+
+.interested__title {
+  @include text-parameters (normal, bold , 18px, 26px, uppercase);
+  @include reset;
+}
+
+.interested__text {
+  @include text-parameters (normal, normal , 14px, 26px, uppercase);
+  @include reset;
+  margin-top: 20px;
+  margin-bottom: 27px;
+}
+
+.interested__link {
+  display: inline-block;
+  padding: 14.5px 32px 17.5px;
+
+  @include text-parameters (normal, bold , 21px, 26px, uppercase);
+  text-align: center;
+  text-decoration: none;
+
+  background-color: $background-dignity;
+  color: $white-color;
+}
+
+@media (min-width: $tablet-width) {
+  .interested {
+    padding: 58px 155px 58px;
+  }
+
+  .interested__text {
+    margin-top: 35px;
+    margin-bottom: 37px;
+  }
+
+  .interested__title {
+    font-size: 30px;
+  }
+
+  .interested__link {
+    padding: 14.5px 121px 17.5px;
+  }
+}

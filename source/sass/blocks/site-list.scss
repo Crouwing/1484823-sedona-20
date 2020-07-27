@@ -1,0 +1,33 @@
+.site-list__item {
+  padding: 10px 78px 5px 77px;
+  background-color: $background-dignity;
+  text-align: center;
+}
+
+.site-list__link {
+  @include text-parameters (normal, bold , 18px, 40px, uppercase);
+  color: $white-color;
+  text-decoration: none;
+}
+
+@media (min-width: $tablet-width) {
+  .site-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .site-list__button {
+    display: none;
+  }
+
+  .site-list__item {
+    padding: 16px 6px 14px 12px;
+    background-color: $white-color;
+  }
+
+  .site-list__link {
+    font-size: 14px;
+    color: $black-color;
+  }
+}

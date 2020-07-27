@@ -1,0 +1,17 @@
+.emotions {
+  padding: 0 21px 51px 19px;
+}
+
+.emotions__subtitle {
+  @include text-parameters (normal, bold , 18px, 26px, uppercase);
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.emotions__input {
+  padding: 13px 23px 29px 21px;
+  width: 235px;
+  height: 118px;
+  background-color: $background-color;
+  border: none;
+}
