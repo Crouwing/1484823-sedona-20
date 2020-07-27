@@ -1,0 +1,21 @@
+.reviews {
+  background-color: $white-color;
+  border: solid 2px #42c55b;
+}
+
+.reviews__description {
+  text-align: center;
+  padding: 36px 6px 37px 8px;
+}
+
+.reviews__description-slogan {
+  @include text-parameters (normal, bold , 18px, 26px, uppercase);
+  @include reset;
+}
+
+.reviews__description-text {
+  @include text-parameters (normal, normal , 14px, 26px, uppercase);
+  @include reset;
+  margin-top: 35px;
+  margin-bottom: 0;
+}

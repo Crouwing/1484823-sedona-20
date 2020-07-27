@@ -1,0 +1,12 @@
+.footer {
+  padding: 35px 85px 23px;
+  text-align: center;
+  border: solid 2px #e6d03b;
+  background-color: $white-color;
+}
+
+.footer__hashtag {
+  @include text-parameters (normal, bold , 21px, 26px, uppercase);
+  text-decoration: none;
+  color: $black-color;
+}

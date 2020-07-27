@@ -1,0 +1,82 @@
+// Форма
+
+.feedback__section {
+  @include reset;
+  border: none;
+}
+
+// Попап с ошибкой
+
+.feedback__error {
+  display: none;
+  padding: 40px 42px 35px 41px;
+  border: solid 2px #5e3be1;
+  text-align: center;
+}
+
+.feedback__error-title {
+  @include text-parameters (normal, bold , 18px, 26px, uppercase);
+  @include reset;
+}
+
+.feedback__error-description {
+  @include text-parameters (normal, normal , 14px, 26px, uppercase);
+  @include reset;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+.feedback__error-link {
+  @include text-parameters (normal, bold , 18px, 26px, uppercase);
+  padding: 18px 64px 14px;
+  text-decoration: none;
+  background-color: $background-dignity;
+  color: $white-color;
+}
+
+// Попап с успешной отправкой
+
+.feedback__success {
+  display: none;
+  padding: 38px 39px 20px;
+  border: solid 2px #fc4f5f;
+  text-align: center;
+}
+
+.feedback__success-title {
+  @include text-parameters (normal, bold , 18px, 26px, uppercase);
+  @include reset;
+}
+
+.feedback__success-description {
+  @include text-parameters (normal, normal , 14px, 26px, uppercase);
+  @include reset;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.feedback__success-link {
+  @include text-parameters (normal, bold , 18px, 26px, uppercase);
+  padding: 16px 76px;
+  text-decoration: none;
+  background-color: $background-dignity;
+  color: $white-color;
+}
+
+.feedback__success-linkbg {
+  margin: -20px -40px;
+  padding: 30px 15px;
+  background-color: $background-color;
+}
+
+// Кнопка отправки
+
+.feedback__button {
+  @include text-parameters (normal, bold , 21px, 26px, uppercase);
+  padding: 18.5px 49px 13.5px 48px;
+  margin-left: 19px;
+  margin-bottom: 46px;
+  border: none;
+  background-color: $background-dignity;
+  color: $white-color;
+}
