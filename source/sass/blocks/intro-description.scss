@@ -15,6 +15,8 @@
   text-align: center;
 }
 
+// Планшет
+
 @media (min-width: $tablet-width) {
   .intro__description {
     padding: 43px 124px 52px;
@@ -22,5 +24,13 @@
 
   .intro-description__slogan {
     font-size: 21px;
+  }
+}
+
+// Десктоп
+
+@media (min-width: $desktop-width) {
+  .intro__description {
+    padding: 55px 358px 41px;
   }
 }

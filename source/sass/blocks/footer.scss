@@ -1,5 +1,5 @@
 .footer {
-  width: 146px;
+  width: 100%;
   padding: 28.5px 85px 23px;
   text-align: center;
   border: solid 2px #e6d03b;
@@ -14,7 +14,7 @@
 
 @media (min-width: $tablet-width) {
   .footer {
-    width: 659px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 36px 60px 36px 45px;

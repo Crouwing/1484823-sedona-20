@@ -32,12 +32,13 @@
 
 @media (min-width: $tablet-width) {
   .interested {
-    padding: 58px 155px 58px;
+    padding: 57px 166px 58px;
   }
 
   .interested__text {
     margin-top: 35px;
     margin-bottom: 37px;
+    white-space: pre-line;
   }
 
   .interested__title {
