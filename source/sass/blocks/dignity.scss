@@ -47,7 +47,7 @@
 .dignity__item-text {
   @include text-parameters (normal, normal , 14px, 22px, uppercase);
   @include reset;
-  margin-top: 28px;
+  margin-top: 26px;
 }
 
 // Планшет
@@ -80,7 +80,7 @@
   }
 
   .dignity__group--tourists {
-    padding: 42px 47px;
+    padding: 42px 49px;
   }
 
   .dignity__title {
@@ -89,22 +89,17 @@
 
   .dignity__list {
     display: grid;
-    grid-template-columns: 23.43% 20.44% 25.13%;
-    column-gap: 70px;
+    grid-template-columns: 185px 154px 193px;
+    column-gap: 73px;
     padding: 158px 31px 59px 36px;
-  }
-
-  .dignity__item--housing {
-    max-width: 185px;
+    text-align: center;
   }
 
   .dignity__item--hamburger {
-    max-width: 180px;
     order: 2;
   }
 
   .dignity__item--souvenirs {
-    max-width: 193px;
     order: 3;
   }
 }
@@ -131,15 +126,15 @@
   }
 
   .dignity__group--area {
-    padding: 52px 33px;
+    padding: 43px 43px 62px;
   }
 
   .dignity__group--road {
-    padding: 42px 50px;
+    padding: 42px 54px 62px;
   }
 
   .dignity__group--tourists {
-    padding: 42px 47px;
+    padding: 43px 55px 62px;
   }
 
   .dignity__title {
@@ -148,22 +143,16 @@
 
   .dignity__list {
     display: grid;
-    grid-template-columns: 23.43% 20.44% 25.13%;
-    column-gap: 70px;
-    padding: 158px 31px 59px 36px;
-  }
-
-  .dignity__item--housing {
-    max-width: 185px;
+    grid-template-columns: 282px 303px 244px;
+    column-gap: 100px;
+    padding: 159px 109px 80px 58px;
   }
 
   .dignity__item--hamburger {
-    max-width: 180px;
     order: 2;
   }
 
   .dignity__item--souvenirs {
-    max-width: 193px;
     order: 3;
   }
 }

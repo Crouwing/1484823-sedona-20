@@ -49,3 +49,11 @@
     padding: 14.5px 121px 17.5px;
   }
 }
+
+// Десктоп
+
+@media (min-width: $desktop-width) {
+  .interested {
+    padding: 57px 382px 58px;
+  }
+}
