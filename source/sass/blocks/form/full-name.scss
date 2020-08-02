@@ -37,3 +37,29 @@
 .full-name__item:last-child {
   margin-bottom: 0;
 }
+
+// Планшет
+
+@media (min-width: $tablet-width) {
+  .full-name {
+    order: 2;
+    width: 50%;
+    padding: 0 0 72px 58px;
+  }
+
+  .full-name__subtitle {
+    font-size: 21px;
+    text-align: start;
+    margin-bottom: 54px;
+  }
+}
+
+// Десктоп
+
+@media (min-width: $desktop-width) {
+  .full-name {
+    order: 2;
+    width: 50%;
+    padding: 0 0 70px 79px;
+  }
+}

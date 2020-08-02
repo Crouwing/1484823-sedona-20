@@ -15,3 +15,22 @@
   background-color: $background-color;
   border: none;
 }
+
+// Планшет
+
+@media (min-width: $tablet-width) {
+  .emotions {
+    order: 5;
+    width: 100%;
+    padding: 0 0 58px 0;
+  }
+
+  .emotions__input {
+    width: 100%;
+  }
+
+  .emotions__subtitle {
+    font-size: 21px;
+    margin-bottom: 54.5px;
+  }
+}
