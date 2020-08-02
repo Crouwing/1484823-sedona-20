@@ -95,3 +95,11 @@
     margin-left: 0;
   }
 }
+
+// Десктоп
+
+@media (min-width: $desktop-width) {
+  .feedback__button {
+    padding: 18.5px 149px 13.5px;
+  }
+}
