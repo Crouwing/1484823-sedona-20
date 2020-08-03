@@ -33,10 +33,10 @@
 
 .dignity__item {
   margin-bottom: 26px;
+}
 
-  &:last-child {
-    margin-bottom: 0;
-  }
+.dignity__item--hamburger {
+  margin-bottom: 0;
 }
 
 .dignity__item-title {
@@ -63,8 +63,12 @@
   }
 
   .dignity__group {
-    max-width: 256px;
+    max-width: 33.33%;
     padding: 43px 32px 32px;
+  }
+
+  .dignity__img {
+    width: 66.66%;
   }
 
   .dignity__group--bridge {
@@ -89,29 +93,30 @@
 
   .dignity__list {
     display: grid;
-    grid-template-columns: 185px 154px 193px;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 73px;
     padding: 158px 31px 59px 36px;
     text-align: center;
   }
 
+  .dignity__item {
+    margin: 0;
+  }
+
   .dignity__item--hamburger {
     order: 2;
+    padding: 0 11px;
   }
 
   .dignity__item--souvenirs {
     order: 3;
+    min-width: 193px;
   }
 }
 
 // Десктоп
 
 @media (min-width: $desktop-width) {
-  .dignity {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
   .dignity--folded {
     max-width: 33.33%;
   }
@@ -143,7 +148,6 @@
 
   .dignity__list {
     display: grid;
-    grid-template-columns: 282px 303px 244px;
     column-gap: 100px;
     padding: 159px 109px 80px 58px;
   }

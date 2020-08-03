@@ -3,15 +3,49 @@
   border: solid 2px #ff00ff;
 }
 
-.intro__background {
+.intro__background--index {
+  padding: 90px 19px 85px;
   height: 389px;
   background-image: url("../img/bg-back-mobile@1x.jpg");
 
   @media (min-width: $tablet-width) {
+    padding: 77px 153px 91px;
     height: 518px;
   }
 
   @media (min-width: $desktop-width) {
-    height: 518px;
+    padding: 78px 370px 90px;
+  }
+}
+
+.intro__background--photo {
+  padding: 52px 45px 67px;
+  height: 158px;
+  background-image: url("../img/bg-back-mobile@1x.jpg");
+
+  @media (min-width: $tablet-width) {
+    padding: 95px 155px 117px;
+    height: 290px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 78px 370px 90px;
+    height: 301px;
+  }
+}
+
+.intro__background--form {
+  padding: 52px 45px 67px;
+  height: 158px;
+  background-image: url("../img/bg-back-mobile@1x.jpg");
+
+  @media (min-width: $tablet-width) {
+    padding: 101px 155px 117px;
+    height: 290px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 101px 370px 120px;
+    height: 301px;
   }
 }
