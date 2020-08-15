@@ -2,3 +2,187 @@
   background-color: $white-color;
   border: solid 2px #45e157;
 }
+
+.advantages__group {
+  padding: 34px 13px 39px;
+  text-align: center;
+  background-color: $background-dignity;
+  color: $white-color;
+
+  &--folded {
+    padding: 25px 35px;
+    background-color: $background-dignity--folder;
+    color: $black-color;
+  }
+}
+
+.advantages__title {
+  @include text-parameters (normal, bold , 18px, 26px, uppercase);
+  @include reset;
+  margin-bottom: 15px;
+}
+
+.advantages__number {
+  @include text-parameters (normal, normal, 14px, 26px, uppercase);
+}
+
+.advantages__text {
+  @include text-parameters (normal, normal , 14px, 26px, uppercase);
+  margin-bottom: 0;
+}
+
+.advantages__list-dignities {
+  @include reset-list;
+  padding: 35px 15px 35px 70px;
+}
+
+.advantages__dignity {
+  margin-bottom: 26px;
+}
+
+.dignity__item--hamburger {
+  margin-bottom: 0;
+}
+
+.advantages__dignity-title {
+  @include text-parameters (normal, bold , 18px, 26px, uppercase);
+  @include reset;
+}
+
+.advantages__dignity-text {
+  @include text-parameters (normal, normal , 14px, 22px, uppercase);
+  @include reset;
+  margin-top: 26px;
+}
+
+// Планшет
+
+@media (min-width: $tablet-width) {
+  .advantages__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .advantages__item--real-town {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .advantages__item--devil-bridge {
+    display: flex;
+  }
+
+  .advantages__item--folded {
+    max-width: 33.33%;
+  }
+
+  .advantages__group {
+    max-width: 33.33%;
+    padding: 43px 32px 32px;
+
+    &--folded {
+      max-width: 100%;
+    }
+  }
+
+  .advantages__img {
+    width: 66.66%;
+  }
+
+  .advantages__group--bridge {
+    order: 2;
+  }
+
+  .advantages__group--area {
+    padding: 52px 33px;
+  }
+
+  .advantages__group--road {
+    padding: 42px 50px;
+  }
+
+  .advantages__group--tourists {
+    padding: 42px 49px;
+  }
+
+  .advantages__title {
+    font-size: 21px;
+  }
+
+  .advantages__list-dignities {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 73px;
+    padding: 158px 31px 59px 36px;
+    text-align: center;
+  }
+
+  .advantages__dignity {
+    margin: 0;
+  }
+
+  .advantages__dignity--hamburger {
+    order: 2;
+    padding: 0 11px;
+  }
+
+  .advantages__dignity--souvenirs {
+    order: 3;
+    min-width: 193px;
+  }
+}
+
+// Десктоп
+
+@media (min-width: $desktop-width) {
+  .advantages__item--devil-bridge {
+    flex-grow: 1;
+  }
+
+  .advantages--folded {
+    max-width: 33.33%;
+  }
+
+  .advantages__group {
+    max-width: 33.3%;
+    padding: 43px 32px 32px;
+
+    &--folded {
+      max-width: 100%;
+    }
+  }
+
+  .advantages__group--bridge {
+    order: 2;
+  }
+
+  .advantages__group--area {
+    padding: 43px 43px 62px;
+  }
+
+  .advantages__group--road {
+    padding: 42px 54px 62px;
+  }
+
+  .advantages__group--tourists {
+    padding: 43px 55px 62px;
+  }
+
+  .advantages__title {
+    font-size: 21px;
+  }
+
+  .advantages__list-dignities {
+    display: grid;
+    column-gap: 100px;
+    padding: 159px 109px 80px 58px;
+  }
+
+  .advantages__dignity--hamburger {
+    order: 2;
+  }
+
+  .advantages__dignity--souvenirs {
+    order: 3;
+  }
+}

@@ -27,3 +27,33 @@
 .impression__item:last-child {
   margin-bottom: 0;
 }
+
+// Планшет
+
+@media (min-width: $tablet-width) {
+  .impression {
+    order: 1;
+    width: 50%;
+    padding: 0 39px 86px 0;
+  }
+
+  .impression__subtitle {
+    font-size: 21px;
+    text-align: start;
+    margin-bottom: 60px;
+  }
+}
+
+// Десктоп
+
+@media (min-width: $desktop-width) {
+  .impression {
+    order: 1;
+    width: 50%;
+    padding: 0 127px 84px 8px;
+  }
+
+  .impression__label {
+    font-size: 18px;
+  }
+}

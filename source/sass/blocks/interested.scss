@@ -29,3 +29,31 @@
   background-color: $background-dignity;
   color: $white-color;
 }
+
+@media (min-width: $tablet-width) {
+  .interested {
+    padding: 57px 166px 58px;
+  }
+
+  .interested__text {
+    margin-top: 35px;
+    margin-bottom: 37px;
+    white-space: pre-line;
+  }
+
+  .interested__title {
+    font-size: 30px;
+  }
+
+  .interested__link {
+    padding: 14.5px 121px 17.5px;
+  }
+}
+
+// Десктоп
+
+@media (min-width: $desktop-width) {
+  .interested {
+    padding: 57px 382px 58px;
+  }
+}

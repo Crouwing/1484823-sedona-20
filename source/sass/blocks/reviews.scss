@@ -19,3 +19,33 @@
   margin-top: 35px;
   margin-bottom: 0;
 }
+
+// Планшет
+
+@media (min-width: $tablet-width) {
+  .reviews__description {
+    padding: 64px 166px 72px;
+  }
+
+  .reviews__description-slogan {
+    @include text-parameters (normal, bold , 30px, 26px, uppercase);
+  }
+
+  .reviews__form {
+    width: 648px;
+    margin: auto;
+  }
+}
+
+// Десктоп
+
+@media (min-width: $desktop-width) {
+  .reviews__description {
+    padding: 114px 382px 56.5px;
+  }
+
+  .reviews__form {
+    width: 960px;
+    margin: auto;
+  }
+}

@@ -27,3 +27,45 @@
 .attractions__item:last-child {
   margin-bottom: 0;
 }
+
+// Планшет
+
+@media (min-width: $tablet-width) {
+  .attractions {
+    order: 4;
+    width: 100%;
+    padding: 0 64px 75px 100px;
+  }
+
+  .attractions__subtitle {
+    width: 47.5%;
+    font-size: 21px;
+    margin-bottom: 47.5px;
+  }
+
+  .attractions__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+// Десктоп
+
+@media (min-width: $desktop-width) {
+  .attractions {
+    padding: 0 0 75px 0;
+  }
+
+  .attractions__subtitle {
+    max-width: 40.5%;
+  }
+
+  .attractions__list {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 74px;
+  }
+
+  .attractions__label {
+    font-size: 18px;
+  }
+}

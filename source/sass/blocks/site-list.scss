@@ -9,3 +9,68 @@
   color: $white-color;
   text-decoration: none;
 }
+
+// Планшет
+
+@media (min-width: $tablet-width) {
+  .site-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .site-list__button {
+    display: none;
+  }
+
+  .site-list__item {
+    padding: 0;
+    background-color: $white-color;
+  }
+
+  .site-list__item--main {
+    margin-left: 45px;
+    margin-right: 77px;
+  }
+
+  .site-list__item--photo {
+    margin-right: 210px;
+  }
+
+  .site-list__item--form {
+    margin-right: 55px;
+  }
+
+  .site-list__item--academy {
+    margin-right: 26px;
+  }
+
+  .site-list__link {
+    font-size: 14px;
+    color: $black-color;
+  }
+}
+
+// Десктоп
+
+@media (min-width: $desktop-width) {
+  .site-list__item {
+    padding: 0;
+  }
+
+  .site-list__item--main {
+    margin-left: 90px;
+    margin-right: 163px;
+  }
+
+  .site-list__item--photo {
+    margin-right: 385px;
+  }
+
+  .site-list__item--form {
+    margin-right: 140px;
+  }
+
+  .site-list__item--academy {
+    margin-right: 67px;
+  }
+}

@@ -8,8 +8,8 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="page__body">
-  <header class="header container">
+<body class="page__body container">
+  <header class="header">
 
     <div class="header__logo logo">
       <a href="">
@@ -18,27 +18,25 @@
     </div>
 
     <nav class="main-nav">
-      <a class="main-nav__toggle" href="#">
-        <img src="" width="" height="" alt="Открыть меню">
-      </a>
+      <button class="main-nav__toggle" aria-label="Открыть меню"></button>
 
       <ul class="main-nav__list site-list">
-        <li class="site-list__item">
+        <li class="site-list__item site-list__item--main">
           <a class="site-list__link" href="index.html">Главная</a>
           <button class="site-list__button" aria-label="Закрыть меню"></button>
         </li>
-        <li class="site-list__item"><a class="site-list__link" href="photo.html">Фото и видео</a></li>
-        <li class="site-list__item"><a class="site-list__link" href="form.html">Форма отзыва</a></li>
-        <li class="site-list__item"><a class="site-list__link" href="">HTML Academy</a></li>
+        <li class="site-list__item site-list__item--photo"><a class="site-list__link" href="photo.html">Фото и видео</a></li>
+        <li class="site-list__item site-list__item--form"><a class="site-list__link" href="form.html">Форма отзыва</a></li>
+        <li class="site-list__item site-list__item--academy"><a class="site-list__link" href="">HTML Academy</a></li>
       </ul>
     </nav>
   </header>
 
-  <main class="main container">
+  <main class="main">
     <section class="intro">
 
-      <div class="intro__background">
-        <img class="intro__background-img" src="" width="" height="" alt="">
+      <div class="intro__background intro__background--index">
+        <img class="intro__background-img" src="img/text-sedona-index.svg" width="282" height="214" alt="">
       </div>
 
       <div class="intro__description intro-description">
@@ -50,59 +48,59 @@
     <section class="advantages">
       <div class="advantages__list">
 
-        <div class="advantages__item dignity">
-          <div class="dignity__group">
-            <h2 class="dignity__title">Настоящий городок</h2>
-            <span class="dignity__number">- №1 -</span>
-            <p class="dignity__text">Седона не аттракцион для туристов, там течет своя жизнь</p>
+        <div class="advantages__item advantages__item--real-town">
+          <div class="advantages__group">
+            <h2 class="advantages__title">Настоящий городок</h2>
+            <span class="advantages__number">- №1 -</span>
+            <p class="advantages__text">Седона не аттракцион для туристов, там течет своя жизнь</p>
           </div>
-          <img class="dignity__img" src="img/main-city-mobile@1x.jpg" width="320" height="260" alt="">
-            <ul class="dignity__list">
-              <li class="dignity__item dignity__item--housing">
-                <h3 class="dignity__item-title">Жилье</h3>
-                <p class="dignity__item-text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+          <img class="advantages__img" src="img/main-city-mobile@1x.jpg" width="320" height="260" alt="">
+            <ul class="advantages__list-dignities">
+              <li class="advantages__dignity advantages__dignity--housing">
+                <h3 class="advantages__dignity-title">Жилье</h3>
+                <p class="advantages__dignity-text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
               </li>
-              <li class="dignity__item dignity__item--souvenirs">
-                <h3 class="dignity__item-title">Сувениры</h3>
-                <p class="dignity__item-text">Не только китайского, но и местного производства!</p>
+              <li class="advantages__dignity advantages__dignity--souvenirs">
+                <h3 class="advantages__dignity-title">Сувениры</h3>
+                <p class="advantages__dignity-text">Не только китайского, но и местного производства!</p>
               </li>
-              <li class="dignity__item dignity__item--hamburger">
-                <h3 class="dignity__item-title">Еда</h3>
-                <p class="dignity__item-text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+              <li class="advantages__dignity advantages__dignity--hamburger">
+                <h3 class="advantages__dignity-title">Еда</h3>
+                <p class="advantages__dignity-text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
               </li>
             </ul>
           </div>
 
-        <div class="advantages__item dignity">
-          <div class="dignity__group">
-            <h2 class="dignity__title">Там есть мост дьявола</h2>
-            <span class="dignity__number">- №2 -</span>
-            <p class="dignity__text">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
+        <div class="advantages__item advantages__item--devil-bridge">
+          <div class="advantages__group advantages__group--bridge">
+            <h2 class="advantages__title">Там есть мост дьявола</h2>
+            <span class="advantages__number">- №2 -</span>
+            <p class="advantages__text">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
           </div>
-          <img class="dignity__img" src="img/main-bridge-mobile@1x.jpg" width="320" height="260" alt="">
+          <img class="advantages__img" src="img/main-bridge-mobile@1x.jpg" width="320" height="260" alt="">
         </div>
 
-        <div class="advantages__item dignity">
-          <div class="dignity__group dignity__group--folded">
-            <h2 class="dignity__title">Небольшая площадь</h2>
-            <span class="dignity__number">- №3 -</span>
-            <p class="dignity__text">Все интересные места находятся очень близко</p>
-          </div>
-        </div>
-
-        <div class="advantages__item dignity">
-          <div class="dignity__group dignity__group--folded">
-            <h2 class="dignity__title">Красивая дорога</h2>
-            <span class="dignity__number">- №4 -</span>
-            <p class="dignity__text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+        <div class="advantages__item advantages__item--folded ">
+          <div class="advantages__group advantages__group--folded advantages__group--area">
+            <h2 class="advantages__title">Небольшая площадь</h2>
+            <span class="advantages__number">- №3 -</span>
+            <p class="advantages__text">Все интересные места находятся очень близко</p>
           </div>
         </div>
 
-        <div class="advantages__item dignity">
-          <div class="dignity__group dignity__group--folded">
-            <h2 class="dignity__title">Мало туристов</h2>
-            <span class="dignity__number">- №5 -</span>
-            <p class="dignity__text">Большинство едет в гранд каньон и толпится там</p>
+        <div class="advantages__item advantages__item--folded ">
+          <div class="advantages__group advantages__group--folded advantages__group--road">
+            <h2 class="advantages__title">Красивая дорога</h2>
+            <span class="advantages__number">- №4 -</span>
+            <p class="advantages__text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </div>
+        </div>
+
+        <div class="advantages__item advantages__item--folded ">
+          <div class="advantages__group advantages__group--folded advantages__group--tourists">
+            <h2 class="advantages__title">Мало туристов</h2>
+            <span class="advantages__number">- №5 -</span>
+            <p class="advantages__text">Большинство едет в гранд каньон и толпится там</p>
           </div>
         </div>
       </div>
@@ -110,7 +108,8 @@
 
     <div class="interested">
       <h2 class="interested__title">Заинтересовались?</h2>
-      <p class="interested__text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+      <p class="interested__text">Укажите предполагаемые даты поездки,
+      и мы покажем вам лучшие предложения гостиниц в Седоне</p>
       <a class="interested__link" href="form.html">Найти гостиницу</a>
     </div>
 
@@ -119,7 +118,7 @@
     </div>
   </main>
 
-  <footer class="footer container">
+  <footer class="footer">
     <a class="footer__hashtag" href="">#VISITSEDONA</a>
 
     <div class="footer_social social">
