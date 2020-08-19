@@ -1,5 +1,9 @@
 .footer {
+<<<<<<< HEAD
   width: 146px;
+=======
+  width: 100%;
+>>>>>>> 309eec6e58f4235ea6a9c8e19e11b6b6933b63f2
   padding: 28.5px 85px 23px;
   text-align: center;
   border: solid 2px #e6d03b;
@@ -14,7 +18,11 @@
 
 @media (min-width: $tablet-width) {
   .footer {
+<<<<<<< HEAD
     width: 659px;
+=======
+    width: 100%;
+>>>>>>> 309eec6e58f4235ea6a9c8e19e11b6b6933b63f2
     display: flex;
     justify-content: space-between;
     padding: 36px 60px 36px 45px;

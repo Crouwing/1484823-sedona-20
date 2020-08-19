@@ -27,7 +27,11 @@
 
 .full-name__item-input--name {
   width: 208px;
+<<<<<<< HEAD
   height: 58px;
+=======
+  min-height: 58px;
+>>>>>>> 309eec6e58f4235ea6a9c8e19e11b6b6933b63f2
 }
 
 .full-name__item {
@@ -37,3 +41,40 @@
 .full-name__item:last-child {
   margin-bottom: 0;
 }
+<<<<<<< HEAD
+=======
+
+// Планшет
+
+@media (min-width: $tablet-width) {
+  .full-name {
+    order: 2;
+    width: 50%;
+    padding: 0 0 72px 58px;
+  }
+
+  .full-name__subtitle {
+    font-size: 21px;
+    text-align: start;
+    margin-bottom: 54px;
+  }
+}
+
+// Десктоп
+
+@media (min-width: $desktop-width) {
+  .full-name {
+    order: 2;
+    width: 50%;
+    padding: 0 0 70px 79px;
+  }
+
+  .full-name__item-input {
+    width: 65%;
+  }
+
+  .full-name__item-input--name {
+    width: 74%;
+  }
+}
+>>>>>>> 309eec6e58f4235ea6a9c8e19e11b6b6933b63f2

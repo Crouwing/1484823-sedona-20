@@ -80,3 +80,29 @@
   background-color: $background-dignity;
   color: $white-color;
 }
+<<<<<<< HEAD
+=======
+
+// Планшет
+
+@media (min-width: $tablet-width) {
+  .feedback {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .feedback__button {
+    order: 6;
+    padding: 18.5px 71px 13.5px;
+    margin-left: 0;
+  }
+}
+
+// Десктоп
+
+@media (min-width: $desktop-width) {
+  .feedback__button {
+    padding: 18.5px 149px 13.5px;
+  }
+}
+>>>>>>> 309eec6e58f4235ea6a9c8e19e11b6b6933b63f2

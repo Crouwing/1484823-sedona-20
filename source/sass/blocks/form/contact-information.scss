@@ -34,3 +34,55 @@
 .contact-information__item:last-child {
   margin-bottom: 0;
 }
+<<<<<<< HEAD
+=======
+
+// Планшет
+
+@media (min-width: $tablet-width) {
+  .contact-information {
+    order: 3;
+    width: 100%;
+    padding: 0 0 51px 0;
+  }
+
+  .contact-information__item-phone {
+    width: 100%;
+  }
+
+  .contact-information__item-email {
+    width: 100%;
+  }
+
+  .contact-information__subtitle {
+    font-size: 21px;
+    margin-bottom: 20px;
+  }
+}
+
+// Десктоп
+
+@media (min-width: $desktop-width) {
+  .contact-information__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+
+  .contact-information__label {
+    margin-left: 0;
+  }
+
+  .contact-information__item-phone {
+    max-width: 67%;
+  }
+
+  .contact-information__item-email {
+    max-width: 67%;
+  }
+
+  .contact-information__contact {
+    display: none;
+  }
+}
+>>>>>>> 309eec6e58f4235ea6a9c8e19e11b6b6933b63f2

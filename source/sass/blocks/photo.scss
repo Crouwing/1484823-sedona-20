@@ -5,7 +5,11 @@
 
 .photo__intro {
   text-align: center;
+<<<<<<< HEAD
   padding: 32px 9px 20px 12px;
+=======
+  padding: 32px 15px 20px 15px;
+>>>>>>> 309eec6e58f4235ea6a9c8e19e11b6b6933b63f2
 }
 
 .photo__intro-title {
@@ -19,3 +23,26 @@
   margin-top: 35px;
   margin-bottom: 0;
 }
+<<<<<<< HEAD
+=======
+
+// Планшет
+
+@media (min-width: $tablet-width) {
+  .photo__intro {
+    padding: 65px 161px;
+  }
+
+  .photo__intro-title {
+    @include text-parameters (normal, bold , 30px, 26px, uppercase);
+  }
+}
+
+// Десктоп
+
+@media (min-width: $desktop-width) {
+  .photo__intro {
+    padding: 102px 377px 67px;
+  }
+}
+>>>>>>> 309eec6e58f4235ea6a9c8e19e11b6b6933b63f2
