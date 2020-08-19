@@ -10,19 +10,12 @@
   text-decoration: none;
 }
 
-<<<<<<< HEAD
-=======
 // Планшет
 
->>>>>>> 309eec6e58f4235ea6a9c8e19e11b6b6933b63f2
 @media (min-width: $tablet-width) {
   .site-list {
     display: flex;
     flex-wrap: wrap;
-<<<<<<< HEAD
-    justify-content: space-around;
-=======
->>>>>>> 309eec6e58f4235ea6a9c8e19e11b6b6933b63f2
   }
 
   .site-list__button {
@@ -30,12 +23,6 @@
   }
 
   .site-list__item {
-<<<<<<< HEAD
-    padding: 16px 6px 14px 12px;
-    background-color: $white-color;
-  }
-
-=======
     padding: 0;
     background-color: $white-color;
   }
@@ -57,14 +44,11 @@
     margin-right: 26px;
   }
 
->>>>>>> 309eec6e58f4235ea6a9c8e19e11b6b6933b63f2
   .site-list__link {
     font-size: 14px;
     color: $black-color;
   }
 }
-<<<<<<< HEAD
-=======
 
 // Десктоп
 
@@ -90,4 +74,3 @@
     margin-right: 67px;
   }
 }
->>>>>>> 309eec6e58f4235ea6a9c8e19e11b6b6933b63f2

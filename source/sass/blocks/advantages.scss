@@ -3,8 +3,6 @@
   border: solid 2px #45e157;
 }
 
-<<<<<<< HEAD
-=======
 .advantages__group {
   padding: 34px 13px 39px;
   text-align: center;
@@ -59,14 +57,11 @@
 
 // Планшет
 
->>>>>>> 309eec6e58f4235ea6a9c8e19e11b6b6933b63f2
 @media (min-width: $tablet-width) {
   .advantages__list {
     display: flex;
     flex-wrap: wrap;
   }
-<<<<<<< HEAD
-=======
 
   .advantages__item--real-town {
     display: flex;
@@ -190,5 +185,4 @@
   .advantages__dignity--souvenirs {
     order: 3;
   }
->>>>>>> 309eec6e58f4235ea6a9c8e19e11b6b6933b63f2
 }
