@@ -1,7 +1,29 @@
 .main-nav {
+  min-width: 320px;
+  min-height: 56px;
   background-color: $white-color;
+  position: relative;
 }
 
 .main-nav__list {
   @include reset-list;
+}
+
+.main-nav__toggle {
+  position: absolute;
+  top: 32px;
+  right: 18px;
+  z-index: 2;
+  display: block;
+  width: 22px;
+  height: 22px;
+  mask-image: url("../img/icon-cross.svg");
+  background-color: $white-color;
+  cursor: pointer;
+  border: none;
+
+  &:hover,
+  &:active {
+    background-color: $white-color;
+  }
 }
