@@ -1,5 +1,16 @@
 .intro__description {
   padding: 32px 30px 11px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 363px;
+    left: 0;
+    width: 320px;
+    height: 50px;
+    background-image: url("../img/bg-intro-triangle-mobile.svg");
+    background-repeat: no-repeat;
+  }
 }
 
 .intro-description__slogan {
