@@ -1,3 +1,63 @@
 .social__list {
   @include reset-list;
+  display: grid;
+  grid-template-columns: 46px 46px 46px;
+  column-gap: 6px;
+}
+
+.social__item {
+  width: 46px;
+  height: 48px;
+  background-color: $background-dignity;
+}
+
+.social__link--twitter {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 16px;
+    left: -8px;
+    width: 17.5px;
+    height: 15px;
+    mask-image: url("../img/icon-twitter.svg");
+    background-color: $white-color;
+    mask-repeat: no-repeat;
+    mask-size: contain;
+  }
+}
+
+.social__link--facebook {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 13px;
+    left: -4px;
+    width: 9px;
+    height: 19px;
+    mask-image: url("../img/icon-facebook.svg");
+    background-color: $white-color;
+    mask-repeat: no-repeat;
+    mask-size: contain;
+  }
+}
+
+.social__link--youtube {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: -9px;
+    width: 20px;
+    height: 14px;
+    mask-image: url("../img/icon-youtube.svg");
+    background-color: $white-color;
+    mask-repeat: no-repeat;
+    mask-size: contain;
+  }
 }
