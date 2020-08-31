@@ -7,11 +7,12 @@
 
 .main-nav__list {
   @include reset-list;
+  display: none;
 }
 
 .main-nav__toggle {
   position: absolute;
-  top: 32px;
+  top: 15px;
   right: 18px;
   z-index: 2;
   display: block;
@@ -26,4 +27,15 @@
   &:active {
     background-color: $white-color;
   }
+}
+
+.main-nav__logo {
+  min-width: 320px;
+  min-height: 56px;
+}
+
+.main-nav__logo-img {
+  position: absolute;
+  z-index: 1;
+  left: 110px;
 }
