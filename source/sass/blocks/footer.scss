@@ -36,6 +36,15 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 36px 60px 36px 45px;
+  }
+
+  .footer__hashtag {
+    margin-bottom: 0;
+  }
+
+  .footer__html-academy {
+    margin-top: 0;
   }
 }

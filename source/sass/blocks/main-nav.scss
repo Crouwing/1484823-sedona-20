@@ -39,3 +39,35 @@
   z-index: 1;
   left: 110px;
 }
+
+@media (min-width: $tablet-width) {
+  .main-nav {
+    min-width: 0;
+    min-height: 0;
+  }
+
+  .main-nav__toggle {
+    display: none;
+  }
+
+  .main-nav__list {
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+
+  .main-nav__logo-img {
+    top: 0;
+    left: 330px;
+  }
+
+  .main-nav__logo {
+    min-width: 0;
+    min-height: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-nav__logo-img {
+    left: 550px;
+  }
+}

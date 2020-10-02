@@ -51,18 +51,25 @@
   .site-list__item--main {
     margin-left: 45px;
     margin-right: 77px;
+    border-bottom: none;
+    box-shadow: none;
   }
 
   .site-list__item--photo {
     margin-right: 210px;
+    border-bottom: none;
+    box-shadow: none;
   }
 
   .site-list__item--form {
     margin-right: 55px;
+    border-bottom: none;
+    box-shadow: none;
   }
 
   .site-list__item--academy {
     margin-right: 26px;
+    box-shadow: none;
   }
 
   .site-list__link {

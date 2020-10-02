@@ -133,6 +133,18 @@
   .advantages__item--real-town {
     display: flex;
     flex-wrap: wrap;
+
+    &::before {
+      display: none;
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 320px;
+      height: 37px;
+      background-image: url("../img/bg-triangle.svg");
+      background-repeat: no-repeat;
+    }
   }
 
   .advantages__item--devil-bridge {
@@ -161,15 +173,18 @@
   }
 
   .advantages__group--area {
-    padding: 52px 33px;
+    padding: 42px 33px 63px;
+    height: 100%;
   }
 
   .advantages__group--road {
-    padding: 42px 50px;
+    padding: 42px 47px;
+    height: 100%;
   }
 
   .advantages__group--tourists {
-    padding: 42px 49px;
+    padding: 42px 40px;
+    height: 100%;
   }
 
   .advantages__title {
@@ -178,8 +193,8 @@
 
   .advantages__list-dignities {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 73px;
+    grid-template-columns: 207px 231px 193px;
+    column-gap: 35px;
     padding: 158px 31px 59px 36px;
     text-align: center;
   }
@@ -188,14 +203,60 @@
     margin: 0;
   }
 
+  .advantages__dignity--housing {
+    padding: 0 20px;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -105px;
+      left: 65px;
+      width: 75px;
+      height: 72px;
+      mask-image: url("../img/icon-house.svg");
+      background-color: $background-dignity;
+      mask-repeat: no-repeat;
+      mask-size: contain;
+    }
+  }
+
   .advantages__dignity--hamburger {
     order: 2;
-    padding: 0 11px;
+    padding: 0 40px;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -105px;
+      left: 78px;
+      width: 76px;
+      height: 68px;
+      mask-image: url("../img/icon-burger.svg");
+      background-color: $background-dignity;
+      mask-repeat: no-repeat;
+      mask-size: contain;
+    }
   }
 
   .advantages__dignity--souvenirs {
     order: 3;
     min-width: 193px;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -110px;
+      left: 65px;
+      width: 64px;
+      height: 75px;
+      mask-image: url("../img/icon-gift.svg");
+      background-color: $background-dignity;
+      mask-repeat: no-repeat;
+      mask-size: contain;
+    }
   }
 }
 
@@ -241,15 +302,60 @@
 
   .advantages__list-dignities {
     display: grid;
-    column-gap: 100px;
-    padding: 159px 109px 80px 58px;
+    grid-template-columns: 282px 313px 244px;
+    column-gap: 104px;
+    padding: 159px 78px 80px 53px;
+  }
+
+  .advantages__dignity--housing {
+    padding: 0 15px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -105px;
+      left: 103px;
+      width: 75px;
+      height: 72px;
+      mask-image: url("../img/icon-house.svg");
+      background-color: $background-dignity;
+      mask-repeat: no-repeat;
+      mask-size: contain;
+    }
   }
 
   .advantages__dignity--hamburger {
     order: 2;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -105px;
+      left: 118px;
+      width: 76px;
+      height: 68px;
+      mask-image: url("../img/icon-burger.svg");
+      background-color: $background-dignity;
+      mask-repeat: no-repeat;
+      mask-size: contain;
+    }
   }
 
   .advantages__dignity--souvenirs {
     order: 3;
+    margin-left: 17px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -110px;
+      left: 82px;
+      width: 64px;
+      height: 75px;
+      mask-image: url("../img/icon-gift.svg");
+      background-color: $background-dignity;
+      mask-repeat: no-repeat;
+      mask-size: contain;
+    }
   }
 }

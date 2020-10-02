@@ -31,6 +31,17 @@
 @media (min-width: $tablet-width) {
   .intro__description {
     padding: 43px 124px 52px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 461px;
+      left: 0;
+      width: 768px;
+      height: 57px;
+      background-image: url("../img/bg-intro-triangle-tablet.svg");
+      background-repeat: no-repeat;
+    }
   }
 
   .intro-description__slogan {
@@ -43,5 +54,16 @@
 @media (min-width: $desktop-width) {
   .intro__description {
     padding: 55px 358px 41px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 461px;
+      left: 0;
+      width: 1200px;
+      height: 57px;
+      background-image: url("../img/bg-intro-triangle-desktop.svg");
+      background-repeat: no-repeat;
+    }
   }
 }
