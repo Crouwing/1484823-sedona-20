@@ -5,6 +5,11 @@
 .gallery__title {
   @include text-parameters (normal, bold , 14px, 24px, uppercase);
   @include reset;
+  margin-top: 11px;
+}
+
+.gallery__subtitle {
+  position: relative;
 }
 
 .gallery__author {
@@ -17,6 +22,20 @@
   display: block;
   margin-top: 13px;
   margin-left: 37px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 60px;
+    right: 257px;
+    width: 23px;
+    height: 21px;
+    mask-image: url("../img/icon-like.svg");
+    background-color: $black-color;
+    opacity: 0.3;
+    mask-repeat: no-repeat;
+    mask-size: contain;
+  }
 }
 
 // Планшет
@@ -27,6 +46,10 @@
     flex-wrap: wrap;
     max-width: 648px;
     margin: auto;
+  }
+
+  .gallery__title {
+    margin-top: 0;
   }
 
   .gallery__subtitle {
@@ -42,6 +65,20 @@
   .gallery__like {
     margin-top: -37px;
     text-align: end;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 32px;
+      right: 62px;
+      width: 23px;
+      height: 21px;
+      mask-image: url("../img/icon-like.svg");
+      background-color: $black-color;
+      opacity: 0.3;
+      mask-repeat: no-repeat;
+      mask-size: contain;
+    }
   }
 
   .gallery__item {
@@ -78,12 +115,27 @@
   .gallery__subtitle {
     margin-top: -90px;
     background-color: $background-gallery--subtitle;
-    // opacity: 0.3;
     color: $white-color;
   }
 
   .gallery__item {
     width: 33.33%;
+  }
+
+  .gallery__like {
+    &::before {
+      content: "";
+      position: absolute;
+      top: 32px;
+      right: 62px;
+      width: 23px;
+      height: 21px;
+      mask-image: url("../img/icon-like.svg");
+      background-color: $white-color;
+      opacity: 1;
+      mask-repeat: no-repeat;
+      mask-size: contain;
+    }
   }
 
   .gallery__item--full {

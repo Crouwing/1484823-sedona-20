@@ -23,14 +23,47 @@
   height: 158px;
   background-image: url("../img/bg-back-mobile@1x.jpg");
 
+  &::before {
+    content: "";
+    position: absolute;
+    top: 132px;
+    left: 0;
+    width: 320px;
+    height: 26px;
+    background-image: url("../img/bg-intro-triangle-mobile.svg");
+    background-repeat: no-repeat;
+  }
+
   @media (min-width: $tablet-width) {
     padding: 95px 155px 117px;
     height: 290px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 233px;
+      left: 0;
+      width: 768px;
+      height: 57px;
+      background-image: url("../img/bg-intro-triangle-tablet.svg");
+      background-repeat: no-repeat;
+    }
   }
 
   @media (min-width: $desktop-width) {
     padding: 78px 370px 90px;
     height: 301px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 244px;
+      left: 0;
+      width: 1200px;
+      height: 57px;
+      background-image: url("../img/bg-intro-triangle-desktop.svg");
+      background-repeat: no-repeat;
+    }
   }
 }
 
